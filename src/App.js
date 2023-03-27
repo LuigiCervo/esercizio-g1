@@ -19,8 +19,12 @@ function App() {
         >
           Learn React
         </a>
-        <Button ButtonText="Questo testo è stato generato da una prop del functiom component" />{" "}
+        <Button ButtonText="Questo testo è stato generato da una prop del functiom component" />
+        <Button ButtonText="Autodistruzione" />
+        <Button ButtonText="Ferma Autodistruzione" />
         <Kitten ImageSrc="https://placekitten.com/500" AltName="Cute Kitten" />
+        <Kitten ImageSrc="https://placekitten.com/300" AltName="Cute Kitten" />
+        <Kitten ImageSrc="https://placekitten.com/100" AltName="Cute Kitten" />
       </header>
     </div>
   );
