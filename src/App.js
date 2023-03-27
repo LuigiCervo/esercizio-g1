@@ -22,9 +22,18 @@ function App() {
         <Button ButtonText="Questo testo è stato generato da una prop del functiom component" />
         <Button ButtonText="Autodistruzione" />
         <Button ButtonText="Ferma Autodistruzione" />
-        <Kitten ImageSrc="https://placekitten.com/500" AltName="Cute Kitten" />
-        <Kitten ImageSrc="https://placekitten.com/300" AltName="Cute Kitten" />
-        <Kitten ImageSrc="https://placekitten.com/100" AltName="Cute Kitten" />
+        <Kitten
+          ImageSrc="https://placekitten.com/500"
+          AltName="Cute Kitten 1"
+        />
+        <Kitten
+          ImageSrc="https://placekitten.com/300"
+          AltName="Smaller Kitten "
+        />
+        <Kitten
+          ImageSrc="https://placekitten.com/100"
+          AltName="Even Smaller Kitten"
+        />
       </header>
     </div>
   );
